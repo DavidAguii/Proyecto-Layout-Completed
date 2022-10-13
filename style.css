@@ -1,0 +1,127 @@
+h1{
+    color: rgb(0, 0, 0);
+}
+h1{
+    color:rgb(22, 25, 22);
+    text-align: center;
+}
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+#tablero-izquierdo{
+    width: 10%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    left: 0px;
+    background-color: brown;
+} 
+  
+#tablero-derecho{
+    width: 8%;
+    position: absolute;
+    height: 80%;
+    padding: 10px;
+    right: 0px;
+    left: 75%;
+    background-color:green;
+    
+ 
+}
+.contenedor {
+    position: relative;
+    height: 6%;
+    left: 6%;
+    
+}
+  
+.contenedor2 {
+    position: relative;
+    height:10%;
+    left: -10px;
+    top:3%
+      
+    
+      
+}
+.contenedor3 {
+    position: relative;
+    height:35%;
+    width: 60px;
+    left: -10px;
+    top:15%;
+ 
+      
+}
+.contenedor4{
+    position: relative;
+    height:10%;
+    left: -10px;
+    top:3%
+      
+}
+.contenedor5 {
+    position: relative;
+    height:10%;
+    width:65px;
+    left: -10px;
+    top:15%;
+      
+}
+  
+
+.reducido {
+    height: 4%;
+}
+  
+.componente {
+    position: absolute;
+    max-width: 100%;
+    max-height: 150%;
+    z-index: 3;
+}
+  
+.producto {
+    position: absolute;
+    max-width: 200%;
+    max-height: 200%;
+    z-index: 2;
+}
+.layout {
+    height: 50%;
+    width: 45%;
+    border: 6px solid black;
+    border-radius: 5rem;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+}
+  
+.rotulo {
+    width: 45%;
+    height: 10%;
+    background: #C4D7E0;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color:red;
+    border: dotted;
+    border-width: 4px 4px;
+    border-radius: 160rem 160rem 0px 0px;
+
+}
+  
+.titulo {
+    position: relative;
+    display: inline;
+    color: black;
+    position: relative;
+    top: 0.5rem;
+}
